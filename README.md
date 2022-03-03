@@ -9,7 +9,9 @@ Goal of this project is to refractor VBA code and measure its performance
 To analyze stock performance, *volumes, starting and ending prices* for each stock must be found.
 A loop was formed to go through all the rows.
 *Volume* was found by summing all the tarded stocks over each ticker. 
+
 **TickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value** 
+
 To avoid any mistake, TickerVolumes was zeroed everytime a new ticker was analyzed.
 
 Start and end prices were found by comparing ticker symbol with previous and next rows. 
@@ -20,6 +22,7 @@ here is the code snippet for finding Start prices which compares the current row
          End If**
 
 finally, *Return* was calculated by dividing ending price by starting price minus 1 to be shown in percentage.
+
 **tickerEndingPrices(i) / tickerStartingPrices(i) - 1**
 
 In 2017, selected stocks performed extremly well with high return except one as shown below:
