@@ -1,7 +1,7 @@
 # Module 2 Challenge: Stock Analysis
 
 ## Overview of Project
-Steve is trying to analyze his stock market data for his parents. He wants to summarize total daily volume and one year return in a separate sheet and this way he evaluates the stock performance.
+Steve is trying to analyze his stock market data for his parents. He wants to summarize total daily volume and one year return in a separate sheet and in this way he evaluates the stock performance.
 ### Purpose
 Goal of this project is to refractor VBA code and measure performance
 ## Analysis and Challenges
